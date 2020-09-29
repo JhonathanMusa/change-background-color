@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+  color: #eee;
+}
