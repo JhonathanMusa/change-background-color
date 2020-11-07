@@ -6,7 +6,12 @@ body {
 input {
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #333;
+  border: none; 
+  background-color: #eee;
+}
+
+input:hover{
+  border: 1px solid orange;
 }
 button {
   padding: 10px;
