@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Change Background Color</h1>
-    <input type="text" id="cambiar" /><br />
-    <button type="button" id="btn-cambiar">Cambiar</button>
+    <div id="app">
+      <h1>Change Background Color</h1>
+      <input type="text" v-model="color" @keyup.enter="changeBackground" /><br />
+      <button type="button" @click="changeBackground">Cambiar</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
