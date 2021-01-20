@@ -1,2 +1,2 @@
-# js-practice2
-Simple project with Javascript
+# change-background-color
+Simple project with Javascript, vue to change the background color
