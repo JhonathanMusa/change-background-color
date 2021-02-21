@@ -1,0 +1,13 @@
+{% extends 'listSubjects/layout.html' %} {% block body %}
+
+<div class="container text-center">
+  <form method="POST">
+    {% csrf_token %}
+    <div class="form-group">{{form}}</div>
+
+    <button type="submit" class="btn btn-dark">Add</button>
+  </form>
+</div>
+
+
+{% endblock %}
