@@ -1,2 +1,2 @@
 # django-todo-list
-Basic todo-list build with django and bootstrap
+Todo-list project, build with django and bootstrap
